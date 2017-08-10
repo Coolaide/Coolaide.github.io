@@ -1,0 +1,94 @@
+body{
+		/*font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+		background-image: url('assets/images/corkwallet.png');
+		margin: 0;*/
+	}
+
+header{
+			background-color: gray;
+			height:100px;
+			width: 100%;
+	}
+
+
+#name{
+			background-color: #4aaaa5;
+			color: #ffffff;
+			margin-top: 14px;
+			margin-left:340px;
+			font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+			padding: 25px;
+			font-size: 32px;
+			font-weight: bold;
+			float: left;	
+	}
+
+.navLinks{
+	font-size: 16px;
+	border-color: white;
+	border-left-style: solid;
+}
+
+#infolinks {
+			padding-left: 75px;
+			float: right;
+			text-align: center;
+			font-weight: bold;
+			color: #666666;
+			margin-right: 200px;
+			margin-top:50px;
+		
+		}
+
+		.leftPanel{
+			float:left;
+			margin-left:300px;
+			background-color:white;
+			width:600px;
+		}
+
+	.rightPanel{
+		float:right;
+		 margin-right:200px;
+		 width:200px;
+	}
+
+.maincontent	{
+	  font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+		background-image: url('assets/images/corkwallet.png');		
+		}
+
+
+
+.maintitle {	
+		color: #4aaaa5;
+		background-color: #ffffff;	
+		font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+		font-size: 2em;
+		border: none;
+		margin: 0;
+		padding-left: 0;
+		padding: 15px;
+		
+
+			}
+
+	
+	#soliloquy	{
+
+
+	}
+
+	footer {
+			
+			background-color: #666666;
+			color: #dee0e2;
+			padding: 20px;
+			text-align: center;
+			font-size: 10px;
+			clear: both;
+			border-width: 5px;
+			border-color: teal;
+			border-top-style: solid;
+
+			}

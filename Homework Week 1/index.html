@@ -7,14 +7,14 @@
 	</head>
 	<body>
 			
-					<!--   Header  -->
+				<!--   Header  -->
 
 		<header>	
-					<div class="name">Coolaid</div>
-						<div id="infolinks">			
-							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">About</a>
-							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Portfolio</a>
-							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Contact</a>
+					<div id="name">The Goddess</div>
+				    <div id="infolinks">			
+							<a class="navLinks" href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">About</a>
+							<a  class="navLinks"  href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Portfolio</a>
+							<a  class="navLinks"  href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Contact</a>
 						</div>
 				
 		</header>
@@ -26,10 +26,12 @@
 
 <div class="maincontent">	
 	
+	<div class="leftPanel">
+
 	<div class="maintitle">About Me</div>
 
-		<div id="citypic">
-			<img src="assets\images\SomeCity.jpg" width="150" height="150">
+		<div id="Goddess">
+			<img src="assets\images\Goddess.jpg" width="150" height="150">
 		</div>
 
 	<div id="soliloquy">
@@ -39,9 +41,11 @@
 		<p>By the age of 16, Shakur had become heavily involved with the Republic of New Afrikan (Black) Independence movement, which was focused on creating an African-American nation within the United States. Shakur became a member of the Provisional Government of the Republic of New Africa, changed his name (to Matulu Shakur—a title he derived from the name of his hero, Saladin Shakur) and devoted himself to the teachings of Malcolm X. He also began working very closely with black nationalist groups, including the Black Panther Party and the Revolutionary Action Movement.</p>
 	</div>
 
+	</div>
+
 
 				<!--  Right Aside Box on First Page --> 
-				
+		<div class="rightPanel">		
 
 			<div class="links">
 					<p>Connect with Me</p>
@@ -51,66 +55,12 @@
 					<img src="assets\images\StackOverflow Logo.png" width="60" height="60">
 			</div>
 
-</div><br><br>
+			</div>
+
+</div>
 				
-				
-				<hr>
-				<footer>&copy; Copyright 2017 Coolaid</footer>
+<footer>&copy; Copyright 2017 Coolaid</footer>
 
-
-<br><br><br>
-
-
-						<!-- Second Page -->
-
-
-				<div class="maintitle">Contact</div>
-
-	<div>
-
-		<form action="/action_page.php">
-
-			First name <br><input type="text" name="fname">
-			<br><br>
-
-			Last name <br><input type="text" name="lname">
-			<br><br>
-
-			Message<br>
-			<textarea rows="10" forcols="80" name="comment" form="usrm"></textarea>
-			<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /><br><br>
-			<input type="submit" value="Submit">
-		</form>
-
-	</div><br><br><br>
-
-
-			<footer>&copy; Copyright 2017 Coolaid</footer><br><br><br>
-
-
-					<!-- Third Page -->
-
-	<div id="rowscols">
-
-		<div class="maintitle">Portfolio</div>
-			
-			<img src="assets\images\Serena.jpg" width="100" height="100">
-			<p>Sports</p>
-
-			<img src="assets\images\Coffy2.jpg" width="100" height="100">
-			<p>Blaxploitation</p>
-
-			<img src="assets\images\Food.png" width="100" height="100">
-			<p>Food</p>
-
-			<img src="assets\images\Skydiver.jpg" width="100" height="100">
-			<p>Outdoors</p>
-
-			<img src="assets\images\Reading.jpg" width="100" height="100">
-			<p>Redading</p><br><br><br>
-	</div>
-		
-				<footer>&copy; Copyright 2017 Coolaid</footer>
 
 
 	</body>
