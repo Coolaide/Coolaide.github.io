@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Basic Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="stylenow.css" />
+	</head>
+	<body>
+			
+					<!--   Header  -->
+
+		<header>	
+					<div class="name">Coolaid</div>
+						<div id="infolinks">			
+							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">About</a>
+							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Portfolio</a>
+							<a href="https://en.wikipedia.org/wiki/Kool-Aid_Man" target="_blank">Contact</a>
+						</div>
+				
+		</header>
+			
+
+
+					<!--  First Page  -->
+
+
+<div class="maincontent">	
+	
+	<div class="maintitle">About Me</div>
+
+		<div id="citypic">
+			<img src="assets\images\SomeCity.jpg" width="150" height="150">
+		</div>
+
+	<div id="soliloquy">
+		<p>Mutulu Shakur was born Jeral Wayne Williams on August 8, 1950, in Baltimore, Maryland. At the age of 7, Shakur moved to Queens, New York, with his mother and younger sister. His mother, who was legally blind, often struggled to get her needs met through the federal social programs. As the eldest of two children, Shakur was often saddled with the responsibility of helping his mother navigate the social system, and his early experiences with assistance programs led him to develop a strong distrust of the American government.
+		</p>
+		
+		<p>By the age of 16, Shakur had become heavily involved with the Republic of New Afrikan (Black) Independence movement, which was focused on creating an African-American nation within the United States. Shakur became a member of the Provisional Government of the Republic of New Africa, changed his name (to Matulu Shakur—a title he derived from the name of his hero, Saladin Shakur) and devoted himself to the teachings of Malcolm X. He also began working very closely with black nationalist groups, including the Black Panther Party and the Revolutionary Action Movement.</p>
+	</div>
+
+
+				<!--  Right Aside Box on First Page --> 
+				
+
+			<div class="links">
+					<p>Connect with Me</p>
+		
+					<img src="assets\images\GitHub Logo.png" width="60" height="60">
+					<img src="assets\images\Linkedin Logo.png" width="60" height="60">
+					<img src="assets\images\StackOverflow Logo.png" width="60" height="60">
+			</div>
+
+</div><br><br>
+				
+				
+				<hr>
+				<footer>&copy; Copyright 2017 Coolaid</footer>
+
+
+<br><br><br>
+
+
+						<!-- Second Page -->
+
+
+				<div class="maintitle">Contact</div>
+
+	<div>
+
+		<form action="/action_page.php">
+
+			First name <br><input type="text" name="fname">
+			<br><br>
+
+			Last name <br><input type="text" name="lname">
+			<br><br>
+
+			Message<br>
+			<textarea rows="10" forcols="80" name="comment" form="usrm"></textarea>
+			<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /><br><br>
+			<input type="submit" value="Submit">
+		</form>
+
+	</div><br><br><br>
+
+
+			<footer>&copy; Copyright 2017 Coolaid</footer><br><br><br>
+
+
+					<!-- Third Page -->
+
+	<div id="rowscols">
+
+		<div class="maintitle">Portfolio</div>
+			
+			<img src="assets\images\Serena.jpg" width="100" height="100">
+			<p>Sports</p>
+
+			<img src="assets\images\Coffy2.jpg" width="100" height="100">
+			<p>Blaxploitation</p>
+
+			<img src="assets\images\Food.png" width="100" height="100">
+			<p>Food</p>
+
+			<img src="assets\images\Skydiver.jpg" width="100" height="100">
+			<p>Outdoors</p>
+
+			<img src="assets\images\Reading.jpg" width="100" height="100">
+			<p>Redading</p><br><br><br>
+	</div>
+		
+				<footer>&copy; Copyright 2017 Coolaid</footer>
+
+
+	</body>
+</html>
