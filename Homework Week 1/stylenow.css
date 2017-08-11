@@ -15,7 +15,7 @@ header{
 			background-color: #4aaaa5;
 			color: #ffffff;
 			margin-top: 14px;
-			margin-left:340px;
+			margin-left:300px;
 			font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 			padding: 25px;
 			font-size: 32px;
@@ -25,8 +25,9 @@ header{
 
 .navLinks{
 	font-size: 16px;
-	border-color: white;
+	border-color: #8e8d8e;
 	border-left-style: solid;
+	border-width: 2px;
 }
 
 #infolinks {
