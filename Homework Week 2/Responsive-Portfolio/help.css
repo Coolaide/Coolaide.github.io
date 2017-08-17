@@ -1,0 +1,767 @@
+/*    Responsive Media Queries    */
+
+ /*
+@media screen and (min-width: 450px) and (max-width: 480px){
+
+         
+    
+      body{
+            margin-bottom:0;
+            background-color: black;
+          }
+    footer{
+            background-color:coral;
+            color: black;
+            border-top-color: black;
+    }
+
+    header .navibox,
+    header #logo,
+    header nav,
+    nav,
+    header nav a,
+    a,
+    .leftpanel,
+    .aside {
+        float: none;
+        text-align: center;
+
+        
+            }
+    
+    #header {
+        position: unset;
+        background-color: coral;
+        margin-top:-10px;
+        margin-bottom: -13px;
+        border-bottom: 3px solid black;
+    }
+
+    .navibox{
+        width: 50%;
+            }
+
+    #main-navibox{
+        padding-top: 10px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-bottom: 13px;
+        text-align:left;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        
+    }
+
+    nav a{
+        height: 45px;
+        display: inline;
+        color: black;
+        border-left-color: #cac7c7;
+        }
+
+    #logo{
+         
+         padding-left: 8%;
+         background-color: coral;
+         color:black;
+    }
+
+    nav{
+            margin-top: 0;
+            font-size: .6em;
+
+    }
+
+    .leftpanel{
+            padding: 20px;
+            background-color: black;
+            border: none;
+            width: 130%;
+            margin-left: -13%;
+
+    }           
+    
+    #main-navibox p{
+        font-size:.7em;
+        color: coral;
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+   
+    .asidebox, h2{
+        background-color: black;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+       
+        width: 104%;
+        font-size:1em;
+        text-align: center;
+        padding: 5%;
+        float: none;
+        
+    }
+
+
+    #connect h2{
+        border-bottom: 1px solid #cac7c7;
+        margin-bottom: 19px;
+        margin-left: 5%;
+        width: 92%;
+    }
+    
+    section .goddesspic{
+        margin-right: 4%;
+        width: 30%;
+    }
+     
+     #connect{
+        width: 100%;
+     }
+
+              /*   Contact Page   */
+
+
+  .icons{
+        width: 25%;
+        height: 40px;
+  }
+
+input[type=submit] {
+        background-color: coral;
+        color:black;
+    }
+
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=email] {
+        background-color: lightgray;
+    }
+
+    textarea[id=message] {
+        background-color: lightgray;
+    }
+
+    label{
+        color: coral;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 571px){
+
+         
+    
+      body{
+            margin-bottom:0;
+            background-color: grey;
+          }
+    footer{
+            background-color:coral;
+            color: black;
+            border-top-color: black;
+    }
+
+    header .navibox,
+    header #logo,
+    header nav,
+    nav,
+    header nav a,
+    a,
+    .leftpanel,
+    .aside {
+        float: none;
+        text-align: center;
+
+        
+            }
+    
+    #header {
+        position: unset;
+        background-color: coral;
+        margin-top:-10px;
+        margin-bottom: -13px;
+        border-bottom: 3px solid black;
+    }
+
+    .navibox{
+        width: 50%;
+            }
+
+    #main-navibox{
+        padding-top: 10px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-bottom: 13px;
+        text-align:left;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        
+    }
+
+    nav a{
+        height: 45px;
+        display: inline;
+        color: black;
+        border-left-color: #cac7c7;
+        }
+
+    #logo{
+         
+         padding-left: 8%;
+         background-color: coral;
+         color:black;
+    }
+
+    nav{
+            margin-top: 0;
+            font-size: .7em;
+
+    }
+
+    .leftpanel{
+            padding: 20px;
+            background-color: black;
+            border: none;
+            width: 130%;
+            margin-left: -13%;
+
+    }           
+    
+    #main-navibox p{
+        font-size:.7em;
+        color: coral;
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+   
+    .asidebox, h2{
+        background-color: black;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+       
+        width: 95%;
+        font-size:1em;
+        text-align: center;
+        padding: 5%;
+        float: none;
+        margin-left: 10%
+    }
+
+
+    #connect h2{
+        border-bottom: 1px solid #cac7c7;
+        margin-bottom: 19px;
+        margin-left: 5%;
+        width: 92%;
+    }
+    
+    section .goddesspic{
+        margin-right: 4%;
+        width: 30%;
+    }
+     
+
+              /*   Contact Page   */
+
+
+input[type=submit] {
+        background-color: coral;
+        color:black;
+    }
+
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=email] {
+        background-color: lightgray;
+    }
+
+    textarea[id=message] {
+        background-color: lightgray;
+    }
+
+    label{
+        color: coral;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 572px) and (max-width: 640px){
+         body {
+      background-color: red; }
+         
+    
+      body{
+            margin-bottom:0;
+            background-color: grey;
+          }
+    footer{
+            background-color:coral;
+            color: black;
+            border-top-color: black;
+    }
+
+    header .navibox,
+    header #logo,
+    header nav,
+    nav,
+    header nav a,
+    a,
+    .leftpanel,
+    .aside {
+        float: none;
+        text-align: center;
+
+        
+            }
+    
+    #header {
+        position: unset;
+        background-color: coral;
+        margin-top:-10px;
+        margin-bottom: -13px;
+        border-bottom: 3px solid black;
+    }
+
+    .navibox{
+        width: 50%;
+            }
+
+    #main-navibox{
+        padding-top: 10px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-bottom: 13px;
+        text-align:left;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        
+    }
+
+    nav a{
+        height: 45px;
+        display: inline;
+        color: black;
+        border-left-color: #cac7c7;
+        }
+
+    #logo{
+         
+         padding-left: 8%;
+         background-color: coral;
+         color:black;
+    }
+
+    nav{
+            margin-top: 0;
+    }
+
+    .leftpanel{
+            padding: 20px;
+            background-color: black;
+            border: none;
+            width: 130%;
+            margin-left: -13%;
+
+    }           
+    
+    #main-navibox p{
+        font-size:.7em;
+        color: coral;
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+   
+    .asidebox, h2{
+        background-color: black;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+       
+        width: 95%;
+        font-size:1em;
+        text-align: center;
+        padding: 5%;
+        float: none;
+        margin-left: 10%
+    }
+
+
+    #connect h2{
+        border-bottom: 1px solid #cac7c7;
+        margin-bottom: 19px;
+        margin-left: 5%;
+        width: 92%;
+    }
+    
+    section .goddesspic{
+        margin-right: 4%;
+        width: 30%;
+    }
+          
+
+
+      /*   Contact Page   */
+
+
+input[type=submit] {
+        background-color: coral;
+        color:black;
+    }
+
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=email] {
+        background-color: lightgray;
+    }
+
+    textarea[id=message] {
+        background-color: lightgray;
+    }
+
+    label{
+        color: coral;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+      body {
+      background-color: red; }
+         
+    
+      body{
+            margin-bottom:0;
+            background-color: grey;
+          }
+    footer{
+            background-color:coral;
+            color: black;
+            border-top-color: black;
+    }
+
+    header .navibox,
+    header #logo,
+    header nav,
+    nav,
+    header nav a,
+    a,
+    .leftpanel,
+    .aside {
+        float: none;
+        text-align: center;
+
+        
+            }
+    
+    #header {
+        position: unset;
+        background-color: coral;
+        margin-top:-10px;
+        margin-bottom: -13px;
+        border-bottom: 3px solid black;
+    }
+
+    .navibox{
+        width: 50%;
+            }
+
+    #main-navibox{
+        padding-top: 10px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-bottom: 13px;
+        text-align:left;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        
+    }
+
+    nav a{
+        height: 45px;
+        display: inline;
+        color: black;
+        border-left-color: #cac7c7;
+        }
+
+    #logo{
+         
+         padding-left: 8%;
+         background-color: coral;
+         color:black;
+    }
+
+    nav{
+            margin-top: 0;
+    }
+
+    .leftpanel{
+            padding: 20px;
+            background-color: black;
+            border: none;
+            width: 130%;
+            margin-left: -13%;
+
+    }           
+    
+    #main-navibox p{
+        font-size:.7em;
+        color: coral;
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+   
+    .asidebox, h2{
+        background-color: black;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+       
+        width: 95%;
+        font-size:1em;
+        text-align: center;
+        padding: 5%;
+        float: none;
+        margin-left: 10%
+    }
+
+
+    #connect h2{
+        border-bottom: 1px solid #cac7c7;
+        margin-bottom: 19px;
+        margin-left: 5%;
+        width: 92%;
+    }
+    
+    section .goddesspic{
+        margin-right: 4%;
+        width: 30%;
+    }
+   
+
+            /*   Contact Page   */
+
+
+input[type=submit] {
+        background-color: coral;
+        color:black;
+    }
+
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=email] {
+        background-color: lightgray;
+    }
+
+    textarea[id=message] {
+        background-color: lightgray;
+    }
+
+    label{
+        color: coral;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+    body{
+            margin-bottom:0;
+            background-color: grey;
+          }
+    footer{
+            background-color:coral;
+            color: black;
+            border-top-color: black;
+    }
+
+    header .navibox,
+    header,
+    header nav,
+    nav,
+    header nav a,
+    a,
+    .leftpanel,
+    .aside {
+        float: none;
+        text-align: center;
+
+        
+            }
+    
+    #header {
+        position: unset;
+        background-color: coral;
+        margin-top:-10px;
+        margin-bottom: -13px;
+        border-bottom: 3px solid black;
+    }
+
+    .navibox{
+        width: 50%;
+            }
+
+    #main-navibox{
+        padding-top: 10px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-bottom: 13px;
+        text-align:left;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        margin-left:50%;
+    }
+
+    nav a{
+        height: 45px;
+        display: inline;
+        color: black;
+        border-left-color: #cac7c7;
+        margin-bottom: 30%;
+        }
+
+    #logo{
+         
+         padding-left: 8%;
+         background-color: black;
+         color:coral;
+         font-size: 2.5em;
+         margin-left: -40%;
+         width:45%;
+
+    }
+
+    nav{
+            margin-top: 0;
+    }
+
+    .leftpanel{
+            padding: 20px;
+            background-color: black;
+            border: none;
+            width: 130%;
+            margin-left: -30%;
+            width:80%;
+
+    }           
+    
+    #main-navibox p{
+        font-size:.7em;
+        color: coral;
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+   
+    .asidebox, h2{
+        background-color: black;
+        color: coral;
+        border-bottom: 1px solid #cac7c7;
+        margin-right: 21%;
+        width: 95%;
+        font-size:1em;
+        text-align: center;
+        padding: 7%;
+    }
+    #connect h2{
+        border-bottom: 1px solid #cac7c7;
+        margin-bottom: 19px;
+        margin-left: 5%;
+        width: 92%;
+    }
+    
+    section .goddesspic{
+        margin-right: 4%;
+        width: 100%;
+        float: none;
+    }
+    
+                        /*    Contact Page    */
+
+    input[type=submit] {
+        background-color: coral;
+        color:black;
+    }
+
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=email] {
+        background-color: lightgray;
+    }
+
+    textarea[id=message] {
+        background-color: lightgray;
+    }
+
+    label{
+        color: coral;
+    }
+
+
+                        /*    Portfolio Page  */
+
+
+
+.work img.resize{
+    width: 150px;
+
+}
+
+     }
+    
+*/
