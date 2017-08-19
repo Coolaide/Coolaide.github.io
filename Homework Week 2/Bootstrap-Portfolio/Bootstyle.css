@@ -78,10 +78,30 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+.navbar navbar-default{
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+nav, {
   float: right;
   margin-top: 25px;
 }
+
+  ul.nav.navbar-right li{
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
 
 nav a {
   display: inline-block;
@@ -111,7 +131,7 @@ footer {
 
 /* asidebox */
 
-.asidebox {
+.col-sm-6 col-md-8, {
   float: right;
   width: 100%;
   max-width: 270px;
@@ -121,8 +141,21 @@ footer {
   border: 1px solid #ddd;
 }
 
+.connect{
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+
+
 h3,
-.asidebox h2 {
+.col-sm-6 col-md-8 h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -237,154 +270,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-               /*  Responsive Media Queries */
-
-
-  @media screen and (max-width: 980px){
-
-#header{
-   position: absolute;  }
-
-nav{
-  margin-right: 40%;}
-
-.goddesspic{
-  width: 100%;
-  margin-bottom: 24px;}
-
- h1{
-  font-size: 1.6em; }
-
-.leftpanel{
-  width: 40%;
-  margin-left: 10%;}
-
-#logo{
-  margin-left: 10%;}
-
-nav{
-  margin-right: 15%;}
-
-.asidebox{
-  margin-right: 14%;}
-
-}
-
-@media screen and (max-width: 768px){
-
-.leftpanel{
-float: none;
-width: 94%;
-max-width: 100%;
-margin-left: 3%;
-height: 960px;
-}
-
-.asidebox{
-  float: none;
-  margin-left: 3%;
-  margin-bottom: 40px;
-  width: 94%;
-  max-width: 100%;
-}
-
-#logo{
-  margin-left: 3%;}
-
-nav{
-  margin-right: 4%;}
-
-.goddesspic{
-  width: 50%;
-  margin-bottom: 24px;}
-
-
-
-
-@media screen and (max-width: 640px){
-
-
-#header{
-  position: static;
-  height: 165px;
-  width: 110%;
-}
-
-.asidebox{
-  float: none;
-  margin-left: 3%;
-  margin-bottom: 40px;
-  width: 94%;
-  max-width: 100%;
-}
-
-#main-navibox {
-  padding-top: 0px;}
-
-.goddesspic{
-  width: 100%;
-  margin-bottom: 24px;
-}
-
-nav a{
-  
-  padding-left:30%;
-  margin-right: 11%;
-  margin-left: 0;
-  padding-left: 8%;
-  width: 12%;
-  font-size: 1.1em;
-  
-}
-
-#logo{
-  float: none;
-  margin-left: 0;
-  padding: 5% 41%;
-}
-
-nav{
-  float: none;
-  margin-left: -17%;
-  text-align: center;
-  margin-right: -17%;
-}
-
-.leftpanel{
-  width: 104%;
-  max-width: 105%;
-}
-              
-
-
-             /*  Portfolio Page  */
-
-
-   @media screen and (max-width: 980px){ 
-
-
-   .work{
-        width: 100%;
-        float: none;
-
-
-   }         
- 
-.leftpanel{
-  width:43%;
-}
-   
-}
-
- 
-              
-
-       
-
-      
-
-
-
-
-        
