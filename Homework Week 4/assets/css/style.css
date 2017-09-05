@@ -1,0 +1,57 @@
+.container{
+	background-color: white;
+	width: 550px;
+	height: 700px;
+	margin-left: 60%;
+	padding: none;
+
+}
+
+body {
+    background-image: url("https://images2.alphacoders.com/125/thumb-1920-125890.jpg"); 
+   
+ }
+
+
+h1 {
+	color: blue;
+	text-align: center;
+	font-family:'Vesper Libre', serif;
+	font-size: 4em;
+	
+}
+
+.instructions {
+	text-align: center;
+	text-orientation: center;
+	height: 200px;
+	background-color: royalblue;
+	color: white;
+	border-radius: 53%;
+	margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 24px;
+}
+
+.instructions p{
+	font-size: .8em;
+}
+	
+.stats{
+	font-size: 1.8em;
+	color: darkorange;
+	padding-bottom: 40px;
+	padding-top: 48px;
+}
+
+.click img{
+	width: 80px;
+	height: 80px;
+}
+
+.results{
+	font-size: 2em;
+	color: royalblue;
+
+}
